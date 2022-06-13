@@ -1,0 +1,47 @@
+*{
+	font-family:verdana;
+	margin: 3px;
+	padding: 3px;
+}
+img{
+	height: 50%;
+	width: 50%;
+}
+h1{
+	color:AC00BF;
+	text-align:center;
+}
+header{
+	height:20%;
+	background-color:#F59E51;
+}
+table, td{
+	border:5px solid brown;
+	border-collapse: collapse brown;
+	padding: 15px;
+}
+#cont1{
+	background:#F5ECCE;
+}
+@media screen and (max-width:500px)
+{
+	#cont1{
+		background:yellow;
+}
+@media screen and (min-width:500px)
+{
+	#cont1{
+		background:#ACFFFF;
+}
+@media(orientation:landscape)
+{
+	body{
+		background:magenta
+	}
+}
+@media(orientation:portrait)
+{
+	body{
+		background:red;
+	}
+}
